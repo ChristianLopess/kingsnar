@@ -8,108 +8,237 @@
   </head>
 <style>
 
+ header, footer { 
+   padding: 1em;
+   color: white;
+   background-color: #0c555b;
+   clear: left;
+   text-align: center;
+   text-shadow: -1px 1px 2px #0c555b;
+
+ }
+
+ footer {
+   font-size: 15px;
+   font-family: arial;
+
+ }
+
+ nav { 
+   float: left; 
+   max-width: 160px;
+   margin: 0;
+   padding: 2.5em;
+
+
+ }
+ 
+ nav ul {
+   list-style-type: none;
+   padding: 1;
+   font-size: 18px;
+   font-family: Trebuchet MS;
+   color: #dae9ed;
+   text-shadow: -1px 1px 2px #0c555b;
+
+ }
+
+ nav ul a { 
+   text-decoration: none;
+   color: #dae9ed
+
+ }
+
+ table, tr, td, th, td { 
+   border: 2px solid #42c2ce;
+   background-color: #1394a0;
+   font-family: Trebuchet MS;
+   text-align: left;
+   font-size: 17.3px;
+   text-shadow: -1px 1px 0.5px #0c555b
+
+
+ }
+
+ table {
+   border-collapse: separate;
+   background-color: #2e97a0
+ }
+
+ th { 
+   width: 100px;
+   color: white;
+
+ }
+
+ td { 
+   width: 360px;
+   height: 38px;
+   color: white;
+   background-color: #25a6b2;
+
+ }
+
+ article {
+   margin-left: 180px;
+   border-left: 1px ;
+   padding: 2em;
+   padding-left: 2000px
+   overflow:hidden;
+}
+
+ .img {
+   float: left;  
+   width: 190px;
+   height: 190px;
+
+ } 
+
  body{
    background-image:url(http://imageshack.com/a/img922/1459/8OyxLe.png);
    background-repeat: no-repeat;
    -moz-background-size:100% 100%;
    -webkit-background-size:100% 100%;
    background-size:100% 100%;
-   color:"F6F6F5";
-   
+   color:"F6F6F5";      
+ }
 
+h1{
+   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+   font-size: 28px;
+   font-style: bold
+   font-variant: bold
+   font-weight: 500;
+   line-height: 26.4px;
+   color: #dae9ed;
+   text-shadow: none;
  }
 
  h2{
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  font-size: 24px;
-  font-style: bold
-  font-variant: bold
-  font-weight: 500;
-  line-height: 26.4px;
-  color: #dae9ed;
-  text-shadow: none;
+   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+   font-size: 24px;
+   font-style: bold
+   font-variant: bold
+   font-weight: 500;
+   line-height: 26.4px;
+   color: #dae9ed;
+   text-shadow: none;
+ }
 
-}
+ p {
+   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+   font-size: 19px;
+   font-style: normal
+   font-variant: normal;
+   font-weight: 500;
+   line-height: 26.4px;
+   color: #053542; 
 
-p{font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  font-size: 19px;
-  font-style: normal
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 26.4px;
-  color: #053542;
+ }
 
-}
+ p1 {
+   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+   font-size: 16px;
+   font-style: normal
+   font-variant: normal;
+   font-weight: 50;
+   line-height: 17px;
+   text-shadow: #4197af 0.01em 0.10em 0.5em;
+   color: #176377;
 
-p1{font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  font-size: 16px;
-  font-style: normal
-  font-variant: normal;
-  font-weight: 50;
-  line-height: 17px;
-  text-shadow: #4197af 0.01em 0.10em 0.5em;
-  color: #176377;
+ }
 
-}
+ p2 {
+   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+   font-size: 18px;
+   font-style: normal
+   font-variant: normal;
+   font-weight: 50;
+   line-height: 17px;
+   color: #176377;
+   text-shadow: none;
+ 
+ }
 
-p2{font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  font-size: 18px;
-  font-style: normal
-  font-variant: normal;
-  font-weight: 50;
-  line-height: 17px;
-  color: #176377;
-  text-shadow: none;
+ .p4 {
+   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+   text-align: center;
+   font-size: 17px;
+   text-shadow: -1px 1px 2px white;
+                
 
-}
+ }
 
-ul{font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  font-size: 15px;
-  font-style: normal
-  font-variant: normal;
-  font-weight: 50;
-  line-height: 17px;
-  color: #176377;
-  text-shadow: none;
+ ul{
+   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+   font-size: 15px;
+   font-style: normal
+   font-variant: normal;
+   font-weight: 50;
+   line-height: 17px;
+   color: #176377;
+   text-shadow: none;
 
-}
+ }
 
-ul2{font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  font-size: 15px;
-  font-style: normal
-  font-variant: normal;
-  font-weight: 50;
-  line-height: 17px;
-  color: #cef4ff;
-  text-shadow: none;
+ ul2{
+   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+   font-size: 15px;
+   font-style: normal
+   font-variant: normal;
+   font-weight: 50;
+   line-height: 17px;
+   color: #cef4ff;
+   text-shadow: none;
 
-}
-
+ }
 </style>
-  <body>
-   <h2>Dados Gerais</h2>
-     <img src="http://imageshack.com/a/img921/2231/tvkofE.png" widht="100" height="220">
-       <p><b>Nome:</b>Christian Lopes de Souza <br>
-         <b>Idade:</b>15 Anos <br>
-         <b>Nascido em:</b>Vila Velha-ES <br>
-         <b>↓ Redes Sociais ↓</b></p>
-     <img src="http://imageshack.com/a/img924/4282/5CTicW.png"(twt)
+
+<body>
+  <header><h1>Meu Mundo Minha Vida</h1></header>
+  <nav>
+   <ul>
+     <li><a href="https://sway.com/5qlN3HmqSwC3jsX9">Sobre Mim</a></li> 
+     <li>Habilidades</li>
+     <li>Blog</li> 
+     <li>Portifólio</li>
+     <li>Contato
+  </nav>
+  <img class="img" src="http://imageshack.com/a/img921/2231/tvkofE.png">
+  <table>
+   <tr>
+    <th>Nome</th>
+    <td> Christian Lopes De Souza</td>
+   </tr>
+   <tr>
+    <th>Cidade</th> 
+    <td> Serra/ES</td>
+   </tr>
+   <tr>
+    <th>Natural de</th> 
+    <td>Vila Velha/ES</td>
+   </tr> 
+   <tr>
+     <th>Idade</th>
+     <td> 15 Anos</td>
+   </tr>
+  </table>
+  <aside>
+  <img src="http://imageshack.com/a/img924/4282/5CTicW.png"(twt)
       width="50"
       height="50" 
       onMouseOver="this.src='http://imageshack.com/a/img921/8640/r7gPvN.png'"
       onMouseOut="this.src='http://imageshack.com/a/img924/4282/5CTicW.png'"
-      onClick="location='https://twitter.com/jailsonmreal'"
+      onClick="location='https://twitter.com/ChristianL_Grey'"
+  >
 
-
->
-
-     <img src="http://imageshack.com/a/img923/7249/aeiYqe.png"(face)
+  <img src="http://imageshack.com/a/img923/7249/aeiYqe.png"(face)
       width="50"
       height="50" 
       onMouseOver="this.src='http://imageshack.com/a/img921/6137/4Fux6T.png'"
       onMouseOut="this.src='http://imageshack.com/a/img923/7249/aeiYqe.png'"
       onClick="location='https://www.facebook.com/christian.lopes.94043'"
->
+ >
 
       <img src=http://imageshack.com/a/img922/1021/lFrvv2.png (insta)
        width="50"
@@ -117,17 +246,20 @@ ul2{font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida
        onMouseOver="this.src='http://imageshack.com/a/img922/4062/g3B33C.png'"
        onMouseOut="this.src='http://imageshack.com/a/img922/1021/lFrvv2.png'"
        onClick="location='https://www.instagram.com/chl0pes/'"
->
+ >
+ </aside>  
+  <article><p class="p4"> Eu nasci em Vila Velha, mas só nasci lá mesmo. Sempre morei no Município de Serra. Nasci em 2001 por causa de um calango(obrigado calango por me salvar de 2002). Sempre gostei de tecnologia, nasci no "berço tecnológico" e agora estou aqui criando páginas :)<p> 
 
-<p></p>
+
+  <iframe width="700" height="390" src="https://www.youtube.com/embed/7kNwG2Tfx6Q" frameborder="0" allowfullscreen></iframe>
+<br>
 
   <p1><i>"Quando você aponta 1 dedo pra alguém, 3 dedos apontam pra você "(Thiago Rachid)</p></i>
   <p1><i>"Uma Vida, Uma chance"(Zangado)</p></i>
   <p1><i>"Manda Salve" (Ian Zanon,2017)</p></i> 
 
- <iframe width="700" height="390" src="https://www.youtube.com/embed/feA64wXhbjo" frameborder="0" allowfullscreen></iframe>
-
-<h2 style="color:#5faabf">Informações Pessoais</h2>
+ 
+ <h2 style="color:#5faabf">Informações Pessoais</h2>
  <p2><b>Hobbies</b></p>
   <ul>
    <li>Programar</li> 
@@ -144,8 +276,9 @@ ul2{font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida
     <li>Aprimorar conhecimento em programação</li>
     <li>Inglês Fluente/Britânico</li>
     <li>Falar "P" sem encostar os labios</li>
-
    </ul>
+   </article>
+   <footer>"Siga em frente, olhe para o lado" ©Christian Ls</footer>
   
  </body>
 </html>
